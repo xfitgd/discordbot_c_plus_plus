@@ -1,0 +1,8 @@
+key/
+build/
+*.so
+*.out
+discordbot++.exe
+discordbot++
+settings.json
+.cache/
