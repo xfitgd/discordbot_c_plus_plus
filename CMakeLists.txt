@@ -6,7 +6,7 @@ include(FetchContent)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
-set(BUILD_SHARED_LIBS ON CACHE INTERNAL "Build SHARED libraries")
+set(BUILD_SHARED_LIBS OFF CACHE INTERNAL "Build SHARED libraries")
 
 FetchContent_Declare(
   simdjson
